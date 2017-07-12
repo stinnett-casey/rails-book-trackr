@@ -1,0 +1,180 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#overlay {
+  position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,0.9);
+  transition: 1s 0.4s;
+}
+
+.collapsible-body {
+  padding: 0 !important;
+}
+
+.offset-top5 {
+  position: relative;
+  top: 5px;
+}
+
+.book {
+	position: relative;
+
+  & label {
+    position: absolute;
+    top: -4px;
+  }
+
+  .favorite {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .badge {
+    margin-top: 2px !important;
+  }
+}
+
+.quick-links {
+  position: absolute;
+  top: 38px;
+  left: 168px;
+
+  span {
+    margin-left: 10px;
+  }
+
+  .show-favorites {
+    float: left;
+
+    i {
+      float: left;
+      position: relative;
+      top: -3px;
+    }
+  }
+
+  .show-owned {
+    float: left;
+
+    i {
+      float: left;
+      position: relative;
+      top: -3px;
+    }
+  }
+}
+
+
+.overflow-visible {
+	overflow: visible !important;
+}
+
+.ui-droppable-hover {
+	border: 1px solid red;
+}
+
+.ui-draggable-dragging {
+	z-index: 999;
+}
+
+.expand-all {
+	float: left;
+  margin-top: -17px;
+}
+
+.user-books.pinned {
+	width: 48%;
+}
+
+.own-it {
+	flex-grow: 1;
+  margin-left: 10px;
+  height: 100%;
+
+  &:hover{
+  	cursor: pointer;
+  }
+
+  &.nice-teal {
+  	color: #26a69a;
+  }
+
+  &.nice-black{
+  	color: #000; //change to be a lighter black, almost grey
+  }
+}
+
+.dropdown-content {
+  min-width: 148px !important;
+  .own-it {
+    padding-left: 7px;
+  }
+
+  .dropdown-icon {
+    float: right;
+    padding-left: 2px;
+  }
+}
+
+[data-activates]:hover {
+  cursor: pointer;
+}
+
+.preloader-wrapper{
+
+  &.x-small {
+    width: 24px;
+    height: 24px;
+  }
+
+  &.ajax-wait {
+    position: absolute;
+    right: 16px;
+    bottom: 12px;
+
+    &.hidden {
+      display: none;
+    }
+  }
+}
+
+span.highlight {
+  background: yellow;
+}
+
+.ilb {
+  display: inline-block;
+}
+
+.favorite-load {
+  float: right !important;
+  width: 6% !important;
+  height: 1.5px !important;
+  position: relative !important;
+  right: 2px !important;
+  margin: 0 !important;
+}
+
+.shadow-flash {
+  animation-name: shadow_flash;
+}
+
+@keyframes shadow_flash{
+  0%, 50%, 100%{
+    -webkit-box-shadow: inset 0px 0px 10px 8px rgba(175, 175, 175, 0.76);
+    -moz-box-shadow:    inset 0px 0px 10px 8px rgba(175, 175, 175, 0.76);
+    box-shadow:         inset 0px 0px 10px 8px rgba(175, 175, 175, 0.76);
+  }
+  25%, 75%{
+    -webkit-box-shadow: inset 0px 0px 10px 17px rgba(175, 175, 175, 0.76);
+    -moz-box-shadow:    inset 0px 0px 10px 17px rgba(175, 175, 175, 0.76);
+    box-shadow:         inset 0px 0px 10px 17px rgba(175, 175, 175, 0.76);
+  }
+}

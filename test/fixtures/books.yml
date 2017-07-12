@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sku: MyString
+  title: MyString
+  category: MyString
+  author: MyString
+  investment: 9.99
+  own-it: false
+
+two:
+  sku: MyString
+  title: MyString
+  category: MyString
+  author: MyString
+  investment: 9.99
+  own-it: false

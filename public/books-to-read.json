@@ -1,0 +1,652 @@
+{
+    "books": [
+        [
+            "BK146",
+            "Household Gold",
+            "Instructional/Business",
+            "Steve W. Price"
+        ],
+        [
+            "BK154",
+            "Pro-sumer Power II",
+            "Instructional/Business",
+            "Bill Quain"
+        ],
+        [
+            "BK117",
+            "God Wants You to Be Rich",
+            "Economics/Spiritual",
+            "Paul Zane Pilzer"
+        ],
+        [
+            "BK177",
+            "I Will Teach You to Be Rich",
+            "Economics",
+            "Ramit Sethi"
+        ],
+        [
+            "BK171",
+            "More Than Enough",
+            "Economics",
+            "Dave Ramsey"
+        ],
+        [
+            "BK129",
+            "B2B Means “Back to Basics”",
+            "Instructional/Business",
+            "Bill Quain, Ph.D."
+        ],
+        [
+            "BK161",
+            "The Business of the 21st Century",
+            "Instructional/Business",
+            "Robert Kiyosaki"
+        ],
+        [
+            "BK155",
+            "Contact Capital",
+            "Instructional/Business",
+            "Bob Proctor"
+        ],
+        [
+            "BK36",
+            "Hung by the Tongue",
+            "Ins./Bus./Spiritual",
+            "Francis P. Martin"
+        ],
+        [
+            "BK149",
+            "Who Stole the American Dream II",
+            "Instructional/Business",
+            "Burke Hedges"
+        ],
+        [
+            "BK168",
+            "The 5 Levels of Leadership",
+            "Leadership",
+            "John C. Maxwell"
+        ],
+        [
+            "BK127",
+            "The 21 Irrefutable Laws of Leadership",
+            "Leadership",
+            "John C. Maxwell"
+        ],
+        [
+            "BK152",
+            "Attitude 101",
+            "Leadership",
+            "John C. Maxwell"
+        ],
+        [
+            "BK109",
+            "Developing the Leader Within You",
+            "Leadership",
+            "John C. Maxwell"
+        ],
+        [
+            "BK110",
+            "Developing the Leaders Around You",
+            "Leadership",
+            "John C. Maxwell"
+        ],
+        [
+            "BK194",
+            "Good Leaders Ask Great Questions",
+            "Leadership",
+            "John C. Maxwell"
+        ],
+        [
+            "BK197",
+            "Intentional Living",
+            "Leadership",
+            "John C. Maxwell"
+        ],
+        [
+            "BK133",
+            "Leadership 101",
+            "Leadership",
+            "John C. Maxwell"
+        ],
+        [
+            "BK189",
+            "The Leadership Handbook",
+            "Leadership",
+            "John C. Maxwell"
+        ],
+        [
+            "BK162",
+            "The Mentor Leader",
+            "Leadership",
+            "Tony Dungy"
+        ],
+        [
+            "BK198",
+            "Multipliers",
+            "Leadership",
+            "Liz Wiseman with Greg McKeown"
+        ],
+        [
+            "BK132",
+            "Thinking for a Change",
+            "Leadership",
+            "John C. Maxwell"
+        ],
+        [
+            "BK165",
+            "Win",
+            "Leadership",
+            "Frank Luntz"
+        ],
+        [
+            "BK201",
+            "You Win in the Locker Room First",
+            "Leadership",
+            "Jon Gordon & Mike Smith"
+        ],
+        [
+            "BK2",
+            "A Better Way to Live",
+            "Motivational",
+            "Og Mandino"
+        ],
+        [
+            "BK4",
+            "Acres of Diamonds",
+            "Motivational",
+            "Russell H. Conwell"
+        ],
+        [
+            "BK77",
+            "Choice",
+            "Motivational",
+            "Og Mandino"
+        ],
+        [
+            "BK108",
+            "Created to Win",
+            "Motivational",
+            "Kevin Baerg"
+        ],
+        [
+            "BK134",
+            "The Dream Giver",
+            "Motivational/Spiritual",
+            "Bruce Wilkinson"
+        ],
+        [
+            "BK22",
+            "Enthusiasm Makes the Difference",
+            "Motivational",
+            "Norman Vincent Peal"
+        ],
+        [
+            "BK183",
+            "Fields to Freedom",
+            "Motivational",
+            "Frank Morales"
+        ],
+        [
+            "BK158",
+            "Freedom’s Frame",
+            "Motivational/Spiritual",
+            "Rick Green"
+        ],
+        [
+            "BK151",
+            "The Generosity Factor",
+            "Motivational",
+            "Ken Blanchard & S. Truett Cathy"
+        ],
+        [
+            "BK24",
+            "The Go-Getter",
+            "Motivational",
+            "Peter B. Kyne"
+        ],
+        [
+            "BK78",
+            "Greatest Miracle",
+            "Motivational",
+            "Og Mandino"
+        ],
+        [
+            "BK164",
+            "The Greatest Mystery in the World",
+            "Motivational",
+            "Og Mandino"
+        ],
+        [
+            "BK80",
+            "Greatest Salesman",
+            "Motivational/Spiritual",
+            "Og Mandino"
+        ],
+        [
+            "BK81",
+            "Greatest Salesman II",
+            "Motivational/Spiritual",
+            "Og Mandino"
+        ],
+        [
+            "BK82",
+            "Greatest Secret",
+            "Motivational/Spiritual",
+            "Og Mandino"
+        ],
+        [
+            "BK30",
+            "How to Be Rich",
+            "Motivational",
+            "J. Paul Getty"
+        ],
+        [
+            "BK137",
+            "The Legend of the Monk and the Merchant",
+            "Motivational",
+            "Terry Felber"
+        ],
+        [
+            "BK44",
+            "Life Is Tremendous",
+            "Motivational",
+            "Charlie ‘Tremendous’ Jones"
+        ],
+        [
+            "BK48",
+            "Magic of Believing",
+            "Motivational",
+            "Claude M. Bristol"
+        ],
+        [
+            "BK51",
+            "Magic of Thinking Big",
+            "Motivational",
+            "David J. Schwartz, Ph.D."
+        ],
+        [
+            "BK66",
+            "Richest Man in Babylon",
+            "Motivational",
+            "George S. Clason"
+        ],
+        [
+            "BK143",
+            "Sequoia Sized Success",
+            "Motivational/Spiritual",
+            "Paul Tsika"
+        ],
+        [
+            "BK179",
+            "Simply Rich",
+            "Motivational",
+            "Rich DeVos"
+        ],
+        [
+            "BK84",
+            "Tongue—A Creative Force",
+            "Motivational/Spiritual",
+            "Charles Capps"
+        ],
+        [
+            "BK93",
+            "University of Success",
+            "Motivational/Self Imp.",
+            "Og Mandino"
+        ],
+        [
+            "BK150",
+            "What You Seed is What You Get",
+            "Motivational/Spiritual",
+            "Paul Tsika"
+        ],
+        [
+            "BK104",
+            "You Can If You Think You Can",
+            "Motivational",
+            "Norman Vincent Peale"
+        ],
+        [
+            "BK192",
+            "Finally Free",
+            "Overcoming Obstacles",
+            "Heath Lambert"
+        ],
+        [
+            "BK193",
+            "Uprooting Anger",
+            "Overcoming Obstacles",
+            "Robert D. Jones"
+        ],
+        [
+            "BK76",
+            "The Art of Understanding Your Mate",
+            "Relationships",
+            "Cecil G. Osborne, D.D."
+        ],
+        [
+            "BK181",
+            "Boundaries in Dating",
+            "Relationships",
+            "Dr. Henry Cloud & Dr. John Townsend"
+        ],
+        [
+            "BK19",
+            "Communicaton, Sex & Money",
+            "Relationships",
+            "Edwin Louis Cole"
+        ],
+        [
+            "BK202",
+            "Crucial Accountability",
+            "Relationships",
+            "Patterson-Grenny-Maxfield-McMillan-Switzler"
+        ],
+        [
+            "BK135",
+            "Finding the Hero in Your Husband",
+            "Relationships",
+            "Julianna Slattery, Psy.D."
+        ],
+        [
+            "BK130",
+            "Fit to Be Tied",
+            "Relationships",
+            "Bill & Lynn Hybels"
+        ],
+        [
+            "BK111",
+            "Five Love Languages",
+            "Relationships",
+            "Gary Chapman"
+        ],
+        [
+            "BK118",
+            "Five Love Languages of Children",
+            "Relationships",
+            "Gary Chapman"
+        ],
+        [
+            "BK23",
+            "For Better or Best",
+            "Relationships",
+            "Gary & Norma Smalley"
+        ],
+        [
+            "BK144",
+            "For Women Only",
+            "Relationships",
+            "Shaunti Feldhahn"
+        ],
+        [
+            "BK170",
+            "Generation iY",
+            "Relationships",
+            "Tim Elmore"
+        ],
+        [
+            "BK163",
+            "Get Married, Stay Married",
+            "Relationships",
+            "Paul & Billie Tsika"
+        ],
+        [
+            "BK34",
+            "How to Win Friends & Influence People",
+            "Relationships",
+            "Dale Carnegie"
+        ],
+        [
+            "BK39",
+            "If Only He Knew",
+            "Relationships",
+            "Gary Smalley"
+        ],
+        [
+            "BK148",
+            "Love & Respect",
+            "Relationships",
+            "Dr. Emerson Eggerichs"
+        ],
+        [
+            "BK200",
+            "Love & Respect in the Family",
+            "Relationships",
+            "Dr. Emerson Eggerichs"
+        ],
+        [
+            "BK191",
+            "Parenting with Purpose",
+            "Relationships",
+            "Paul & Billie Kaye Tsika"
+        ],
+        [
+            "BK136",
+            "A Woman After God’s Own Heart",
+            "Relationships",
+            "Elizabeth George"
+        ],
+        [
+            "BK184",
+            "8 Attributes of Great Achievers",
+            "Self Improvement",
+            "Cameron Taylor"
+        ],
+        [
+            "BK186",
+            "8 Attributes of Great Achievers II",
+            "Self Improvement",
+            "Cameron Taylor"
+        ],
+        [
+            "BK187",
+            "15 Invaluable Laws of Growth",
+            "Self Improvement",
+            "John C. Maxwell"
+        ],
+        [
+            "BK156",
+            "39 Days of Destiny",
+            "Self Imp./Spiritual",
+            "Paul Tsika"
+        ],
+        [
+            "BK131",
+            "Am I Making Myself Clear?",
+            "Self Improvement",
+            "Terry Felber"
+        ],
+        [
+            "BK119",
+            "An Enemy Called Average",
+            "Self Improvement",
+            "John L. Mason"
+        ],
+        [
+            "BK14",
+            "As a Man Thinketh",
+            "Self Improvement",
+            "James Allen"
+        ],
+        [
+            "BK180",
+            "Boundaries",
+            "Self Improvement",
+            "Dr. Henry Cloud & Dr. John Townsend"
+        ],
+        [
+            "BK167",
+            "The Complete 101 Collection",
+            "Self Improvement",
+            "John C. Maxwell"
+        ],
+        [
+            "BK188",
+            "The Compound Effect",
+            "Self Improvement",
+            "Darren Hardy"
+        ],
+        [
+            "BK204",
+            "Daring Greatly",
+            "Self Improvement",
+            "Brene Brown"
+        ],
+        [
+            "BK178",
+            "The Diamond Life",
+            "Self Improvement",
+            "Tony Scott"
+        ],
+        [
+            "BK172",
+            "Don’t Eat the Marshmallow...Yet",
+            "Self Improvement",
+            "Joachim de Posada"
+        ],
+        [
+            "BK126",
+            "Four Pillars of a Man’s Heart",
+            "Self Improvement",
+            "Stu Weber"
+        ],
+        [
+            "BK203",
+            "The Gift of Imperfection",
+            "Self Improvement",
+            "Brene Brown"
+        ],
+        [
+            "BK173",
+            "The Go-Giver",
+            "Self Improvement",
+            "Bob Burg & John David Mann"
+        ],
+        [
+            "BK175",
+            "Go-Givers Sell More",
+            "Self Improvement",
+            "Bob Burg & John David Mann"
+        ],
+        [
+            "BK29",
+            "How I Raised Myself from Failure to Success",
+            "Self Improvement",
+            "Frank Bettger"
+        ],
+        [
+            "BK32",
+            "How to Stop Worrying and Start Living",
+            "Self Improvement",
+            "Dale Carnegie"
+        ],
+        [
+            "BK182",
+            "The ONE Thing",
+            "Self Improvement",
+            "Gary Keller"
+        ],
+        [
+            "BK157",
+            "Operation Blessing",
+            "Self Imp./Spiritual",
+            "Billie Kaye Tsika"
+        ],
+        [
+            "BK61",
+            "The Power of Potential",
+            "Self Improvement",
+            "Edwin Louis Cole"
+        ],
+        [
+            "BK176",
+            "Prospecting Power",
+            "Self Improvement",
+            "Russ McNeil"
+        ],
+        [
+            "BK64",
+            "Psycho-Cybernetics",
+            "Self Improvement",
+            "Maxwell Maltz, MD, FICS"
+        ],
+        [
+            "BK169",
+            "Releasing Your Full Potential",
+            "Self Improvement",
+            "Paul Tsika"
+        ],
+        [
+            "BK185",
+            "A Rendezvous with Destiny",
+            "Self Improvement",
+            "Jim Janz"
+        ],
+        [
+            "BK68",
+            "Secret of Success",
+            "Self Improvement",
+            "R.C. Allen"
+        ],
+        [
+            "BK174",
+            "Selling 101",
+            "Self Improvement",
+            "Zig Ziglar"
+        ],
+        [
+            "BK199",
+            "So Long Insecurity",
+            "Self Imp./Spiritual",
+            "Beth Moore"
+        ],
+        [
+            "BK72",
+            "Success—The Glen Bland Method",
+            "Self Imp./Spiritual",
+            "Glenn Bland"
+        ],
+        [
+            "BK87",
+            "Tough Times Never Last—Tough People Do",
+            "Self Improvement",
+            "Robert H. Schuller"
+        ],
+        [
+            "BK147",
+            "Visioneering",
+            "Self Improvement",
+            "Andy Stanley"
+        ],
+        [
+            "BK140",
+            "Wild at Heart",
+            "Self Imp./Spiritual",
+            "John Eldrege"
+        ],
+        [
+            "BK142",
+            "Your Best Life Now",
+            "Self Imp./Spiritual",
+            "Joel Osteen"
+        ],
+        [
+            "BK190",
+            "The Tuttle Twins Learn About the Law",
+            "Children",
+            "Connor Boyack"
+        ],
+        [
+            "BK195",
+            "The Tuttle Twins and the Miraculous Pencil",
+            "Children",
+            "Connor Boyack"
+        ],
+        [
+            "BK196",
+            "Sometimes You Win, Sometimes You Learn",
+            "Children",
+            "John C. Maxwell"
+        ]
+    ]
+}

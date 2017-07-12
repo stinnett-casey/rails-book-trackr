@@ -1,0 +1,9 @@
+%li
+  .collapsible-header
+    = category
+    %span.count.badge(data-badge-caption="#{data_badge_caption}")
+      #{books.count}
+  .collapsible-body
+    %ul.collection.overflow-visible(data-category="#{category}")
+      - books.each do |book|
+        =render 'books/book', book: book, show_times_read: show_times_read, show_category: false, tab_section: tab_section, draggable: draggable, sortable: sortable

@@ -1,0 +1,108 @@
+%nav.nav-extended
+  .nav-wrapper
+    %a.brand-logo{:href => "#"} Logo
+    %a.button-collapse{"data-activates" => "mobile-demo", :href => "#"}
+      %i.material-icons menu
+    - if user_signed_in?
+      %ul#nav-mobile.right.hide-on-med-and-down
+        %li
+          = link_to 'Log Out', destroy_user_session_path, method: :delete
+      %ul#mobile-demo.side-nav
+        %li
+          = link_to 'Log Out', destroy_user_session_path, method: :delete
+  .nav-content
+    %ul.tabs.tabs-transparent
+      %li.tab
+        %a{href: "#readr-trackr"} Readr Trackr
+      %li.tab
+        %a{href: "#prioritize"} Prioritize
+      %li.tab
+        %a{href: "#book-managr"} Book Managr
+      %li.tab
+        %a{href: "#settings"} Settings
+#readr-trackr
+  .row
+    .col.s6
+      .all-books
+        %ul.collapsible.collection.with-header.overflow-visible(data-collapsible="accordion")
+          %li.collection-header 
+            %h4 Unread Books
+            %span.expand-all
+              %a.expand(href="#") Expand All
+          - @unread_by_category.each do |category, books|
+            = render 'books/book_category', category: category, books: books, show_times_read: false, data_badge_caption: 'To Read', tab_section: 'readr-trackr', draggable: true, sortable: false
+    .col.s6
+      .user-books
+        %ul.collapsible.collection.with-header.readr-trackr-droppable.overflow-visible#readr-trackr-accept-books(data-collapsible="accordion" data-expanded="false")
+          %li.collection-header 
+            %h4 Books #{@user.first_name} Has Read
+            %span.expand-all
+              %a.expand(href="#") Expand All
+          - if @user_books_by_category.count == 0
+            %li.collection-item.no-books.not-draggable Why you no read?
+          - else
+            - @user_books_by_category.each do |category, books|
+              = render 'books/book_category', category: category, books: books, show_times_read: true, data_badge_caption: 'Read', tab_section: 'readr-trackr', draggable: false, sortable: false
+#prioritize
+  .row
+    .col.s6
+      .all-books
+        %ul.collapsible.collection.with-header.overflow-visible(data-collapsible="accordion")
+          %li.collection-header 
+            %h4 Unprioritized Books
+            %span.expand-all
+              %a.expand(href="#") Expand All
+          - @all_books_minus_prioritized.each do |category, books|
+            = render 'books/book_category', category: category, books: books, show_times_read: false, data_badge_caption: 'Books', tab_section: 'prioritize', draggable: true, draggable: true, sortable: false
+    .col.s6
+      .user-priorities
+        %ul.collapsible.collection.with-header.prioritize-droppable.overflow-visible#prioritize-accept-books(data-collapsible="accordion" data-expanded="false")
+          %li.collection-header 
+            %h4 Priority List
+            %span.expand-all
+              %a.expand(href="#") Expand All
+          - if @user_priority_list.count == 0
+            %li.collection-item.no-books.not-draggable Prioritize some books!
+          - else
+            - @user_priority_list.each do |book|
+              = render 'books/book', book: book, show_times_read: false, show_category: false, tab_section: 'prioritize', draggable: false, sortable: true
+
+
+
+
+#book-managr
+  .container
+    .row
+      .col.s12
+        .all-books
+          %ul.collapsible.collection.with-header.droppable.overflow-visible.searchable#book-managr-accept-books
+            %li.collection-header 
+              %h4 All Books
+              .quick-links
+                %span.show-favorites
+                  %a
+                    %i.material-icons star
+                    Show Favorites
+                %span.show-owned
+                  %a
+                    %i.material-icons check_circle
+                    Show Books You Own
+              %nav
+                .nav-wrapper
+                  %form
+                    .input-field
+                      %input#search(type="search" data-list=".searchable" autocomplete="off")
+                      %label.label-icon(for="search")
+                        %i.material-icons search
+                      %i.material-icons close
+            - @all_books.each do |book|
+              = render 'books/book', book: book, show_times_read: false, show_category: true, tab_section: 'book-managr', draggable: false, sortable: false
+#settings
+  Settings!
+
+
+
+
+
+
+
